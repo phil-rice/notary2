@@ -2,4 +2,4 @@ GET   /               controllers.notary.NotaryController.index
 
 
 # Map static resources from the /public folder to the /assets URL path
-GET     /notary/assets/*file               controllers.Assets.versioned(path="/public/lib/notary", file: Asset)
+GET     /notary/assets/*file               controllers.notary.NotaryAssets.versioned(path="/public/lib/notary", file: Asset)
