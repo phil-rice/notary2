@@ -1,7 +1,8 @@
-package controllers
+package controllers.user
 
 import org.validoc.notary.users._
 import play.api.mvc._
+import play.api.http._
 
 
 trait LoginController[A] {
@@ -32,3 +33,5 @@ object LoginController extends Controller with LoginController[SimpleUser] {
   def userInRequest: UserInRequest = SimpleUserInRequest
 
 }
+
+object LAssets extends controllers.AssetsBuilder(LazyHttpErrorHandler)

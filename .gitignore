@@ -2,11 +2,11 @@ logs
 target
 /.idea
 /.idea_modules
-/.classpath
-/.project
-/.settings
+/**/.classpath
+/**/.project
+.settings/
 /RUNNING_PID
-/bin/
+bin/
 .cache-main
 .cache-tests
 .sbtserver/

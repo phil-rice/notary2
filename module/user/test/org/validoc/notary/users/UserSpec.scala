@@ -1,3 +1,4 @@
+
 package org.validoc.notary.users
 
 import org.scalatestplus.play.PlaySpec
